@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
+
+# Azure Foundry / Agents
+.foundry/
+.agents/
+*.foundrystate
+.cache/
+logs/
+*.log
+*.pid
+
+# Azure
+.azure/
+azure.ini
+azurite_*
+*.pem
+*.key
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS
+.DS_Store
+Thumbs.db
+.thumbs.db
+
+# Local configuration
+.env.local
+.env.*.local
+config.local.json
+settings.local.py
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Large files
+*.pkl
+*.pickle
+*.joblib
